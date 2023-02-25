@@ -16,6 +16,6 @@ Site criado com o intuito de mostrar meus estudos, com a página de home, sobre 
 
 ### Viviane Santos
 
-## Acesse o meu projeto nesse link:https://portfolio-ehdappcg0-vivianearaujo.vercel.app 
+## Acesse o meu projeto nesse link: https://portfolio-74hdswoky-vivianearaujo.vercel.app/
 
 ### Linkedin:https://www.linkedin.com/in/viviane-santos-b63986106/
