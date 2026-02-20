@@ -1,7 +1,7 @@
 # 🚀 Portfólio Profissional
 
 <p align="center">
-  <img src="assets/vivi.png" width="250" style="border-radius: 40px; border: 4px solid #22D4FD;" alt="Foto Viviane Santos">
+  <img src="assets/vivi.png" width="150" style="border-radius: 50%; border: 3px solid #22D4FD;" alt="Foto Viviane Santos">
 </p>
 
 <p align="center">
@@ -11,13 +11,13 @@
 ## 📝 Descrição
 Site criado com o intuito de mostrar meus estudos, com as páginas Home, Sobre Mim, Currículo e Contato. 
 
-Para garantir a **responsividade** em desktops, tablets e dispositivos móveis, utilizei:
-* Unidades de medida dinâmicas (`rem`, `%`, `em`).
-* **Flexbox** para alinhamento e organização estruturada.
+### 🖥️ Pré-visualização do Projeto:
+<p align="center">
+  <img src="assets/screenshot.png" width="600" alt="Miniatura do Site Portfólio" style="border: 2px solid #863A6F; border-radius: 10px;">
+</p>
 
 ## 🛠️ Ferramentas Utilizadas
-* **HTML5** (Estruturação)
-* **CSS3** (Estilização e Layout)
+* **HTML5** e **CSS3**
 * **Flexbox** (Responsividade)
 
 ## 🔗 Links Oficiais
