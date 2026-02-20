@@ -1,21 +1,31 @@
-# Portfólio
-Olá, Bem vindo ao meu projeto de portfólio.
-![vivi](assets/vivi.png)
-## Descrição:
-Site criado com o intuito de mostrar meus estudos, com a página de home, sobre mim, curriculo e contato. Foram utilizadas (unidades de medidas rem, porcentagem, em), para deixar o projeto responsivo a desktops, tablets e dispositivos móveis. 
+# 🚀 Portfólio Profissional
 
-## Ferramentas utilizadas:
+<p align="center">
+  <img src="assets/vivi.png" width="250" style="border-radius: 40px; border: 4px solid #22D4FD;" alt="Foto Viviane Santos">
+</p>
 
-* HTML
+<p align="center">
+  <strong>Olá! Bem-vindo ao meu projeto de portfólio.</strong>
+</p>
 
-* CSS
+## 📝 Descrição
+Site criado com o intuito de mostrar meus estudos, com as páginas Home, Sobre Mim, Currículo e Contato. 
 
-* Flex-box
+Para garantir a **responsividade** em desktops, tablets e dispositivos móveis, utilizei:
+* Unidades de medida dinâmicas (`rem`, `%`, `em`).
+* **Flexbox** para alinhamento e organização estruturada.
 
-## Feito por:
+## 🛠️ Ferramentas Utilizadas
+* **HTML5** (Estruturação)
+* **CSS3** (Estilização e Layout)
+* **Flexbox** (Responsividade)
 
-### Viviane Santos
+## 🔗 Links Oficiais
+* **🌐 Site Online (Vercel):** [Acesse meu projeto aqui](https://portfolio-74hdswoky-vivianearaujo.vercel.app/)
+* **🟦 LinkedIn Profissional:** [Conecte-se comigo no LinkedIn](https://www.linkedin.com/in/viviane-santos-b63986106/)
 
-## Acesse o meu projeto nesse link: https://portfolio-74hdswoky-vivianearaujo.vercel.app/
+---
 
-### Linkedin:https://www.linkedin.com/in/viviane-santos-b63986106/
+## 👩‍💻 Feito por:
+### **Viviane Santos**
+*Estudante de Análise e Desenvolvimento de Sistemas | Foco em Back-end (Python & FastAPI)*
