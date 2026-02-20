@@ -1,6 +1,6 @@
 # Portfólio
 Olá, Bem vindo ao meu projeto de portfólio.
-![portfolio img](![vivi](./assets/vivi.png))
+![vivi](assets/vivi.png)
 ## Descrição:
 Site criado com o intuito de mostrar meus estudos, com a página de home, sobre mim, curriculo e contato. Foram utilizadas (unidades de medidas rem, porcentagem, em), para deixar o projeto responsivo a desktops, tablets e dispositivos móveis. 
 
