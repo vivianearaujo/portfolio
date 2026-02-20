@@ -19,6 +19,7 @@ body{
     box-sizing: border-box;
     background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
+    background-color: red !important;
 }
 
 span {
@@ -219,13 +220,15 @@ input, textarea, button {
         margin-left: 30px;
     }
 
-    .imagem {
-        width: 40%;
-        border: 10px solid red; /* Só para testar se o navegador lê a mudança */
+   .imagem {
+    width: 300px !important; 
+    border: 5px solid #22D4FD !important;
+    border-radius: 40px !important;
+    display: block;
 }
-    }
+    
 
-    input, textarea, button {
+    .input, textarea, button {
         width: 95%;
         padding: 20px;
         margin-right: 50%;
@@ -250,6 +253,7 @@ input, textarea, button {
     }
 
 }
+
 
 
 
