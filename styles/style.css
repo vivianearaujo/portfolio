@@ -160,13 +160,12 @@ input, textarea, button {
     transform: scale(0.9);
 }
 
-/* O SEGREDO: Limita o tamanho da sua foto */
 .imagem {
-    width: 300px; /* Aqui você controla o tamanho (diminuí um pouco mais para você testar) */
-    height: auto; /* Mantém a proporção da foto */
-    border-radius: 45px; /* Deixa a borda "meio redonda" (estilo pílula/arredondado suave) */
-    border: 3px solid #22D4FD; /* A bordinha azul que você gostou */
-    box-shadow: 0 0 15px rgba(34, 212, 253, 0.3); /* Dica extra: um brilho azul suave em volta */
+    width: 300px; /* Tamanho ajustado para não esconder o sistema */
+    height: auto;
+    border-radius: 40px; /* O segredo das pontas bem redondas */
+    border: 4px solid #22D4FD; 
+    box-shadow: 0 0 20px rgba(34, 212, 253, 0.4); /* Um brilho extra para destacar */
 }
 
 .rodape {
@@ -249,6 +248,7 @@ input, textarea, button {
     }
 
 }
+
 
 
 
