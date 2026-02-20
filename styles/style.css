@@ -41,15 +41,17 @@ span {
     text-decoration: none;
 }
 
+/* Faz o container principal organizar os itens em linha */
 .apresentacao {
-    padding: 5% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 82px;
+    padding: 5% 10%; /* Dá um espaço nas laterais */
+    gap: 80px; /* Espaço entre o texto e a imagem */
 }
 
-.apresentacao__conteudo  {
+/* Define que o texto ocupa uma parte da tela */
+.apresentacao__conteudo {
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -158,8 +160,12 @@ input, textarea, button {
     transform: scale(0.9);
 }
 
-.imagem{
-    width: 40%;
+/* O SEGREDO: Limita o tamanho da sua foto */
+.imagem {
+    width: 450px; /* Ajuste esse valor conforme achar melhor */
+    height: auto; /* Mantém a proporção da foto */
+    border-radius: 16px; /* Deixa os cantos arredondados */
+    border: 2px solid #22D4FD; /* Adiciona aquela borda azul que combina com o seu site */
 }
 
 .rodape {
@@ -242,6 +248,7 @@ input, textarea, button {
     }
 
 }
+
 
 
 
