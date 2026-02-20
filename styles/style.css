@@ -162,10 +162,11 @@ input, textarea, button {
 
 /* O SEGREDO: Limita o tamanho da sua foto */
 .imagem {
-    width: 350px; /* Altere este número para diminuir ou aumentar (ex: 300px fica menor) */
-    height: auto; /* Mantém a proporção correta para não esticar a foto */
-    border-radius: 16px; /* Mantém as bordas arredondadas que você já usa */
-    border: 2px solid #22D4FD; /* Aquela borda azul que combina com o seu tema */
+    width: 300px; /* Aqui você controla o tamanho (diminuí um pouco mais para você testar) */
+    height: auto; /* Mantém a proporção da foto */
+    border-radius: 45px; /* Deixa a borda "meio redonda" (estilo pílula/arredondado suave) */
+    border: 3px solid #22D4FD; /* A bordinha azul que você gostou */
+    box-shadow: 0 0 15px rgba(34, 212, 253, 0.3); /* Dica extra: um brilho azul suave em volta */
 }
 
 .rodape {
@@ -248,6 +249,7 @@ input, textarea, button {
     }
 
 }
+
 
 
 
