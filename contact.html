@@ -21,8 +21,7 @@
         <img class="imagem" src="./assets/vivi.png" alt="Foto da Viviane Santos">
 
         <section class="apresentacao__conteudo">
-            <form action="https://formspree.io/f/xnjbgjdr" method="POST" class="formulario_contato">
-                <input type="hidden" name="_next" value="https://vivianearaujo-portfolio.vercel.app/sucesso.html">
+            <form id="meuFormulario" action="https://formspree.io/f/xnjbgjdr" method="POST" class="formulario_contato">
                 <h1 class="titulo_contato">Contate-me</h1>
                 
                 <div class="campo">
@@ -53,12 +52,32 @@
     <footer class="rodape">
         <p><strong>Desenvolvido por Viviane Santos</strong></p>
     </footer>
+
     <script>
- 
-</script>
+        var form = document.getElementById("meuFormulario");
+        
+        form.addEventListener("submit", async function(event) {
+            event.preventDefault(); // Impede de ir para a tela branca do Formspree
+            
+            var data = new FormData(event.target);
+            
+            fetch(event.target.action, {
+                method: form.method,
+                body: data,
+                headers: {
+                    'Accept': 'application/json'
+                }
+            }).then(response => {
+                if (response.ok) {
+                    // Se deu certo, manda o usuário para a página de sucesso!
+                    window.location.href = "sucesso.html";
+                } else {
+                    alert("Oops! Houve um problema ao enviar sua mensagem.");
+                }
+            }).catch(error => {
+                alert("Oops! Houve um problema de conexão.");
+            });
+        });
+    </script>
 </body>
 </html>
-
-
-
-
