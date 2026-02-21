@@ -1,11 +1,12 @@
 # 🚀 Portfólio Profissional
 
 <p align="center">
-  <img src="assets/vivi.png" width="250" style="border-radius: 40px; border: 4px solid #22D4FD;" alt="Foto Viviane Santos">
+  
 </p>
 
 <p align="center">
   <strong>Olá! Bem-vindo ao meu projeto de portfólio.</strong>
+  <img src="assets/projeto.png" width="100%" alt="Preview do Sistema Portfólio" style="border-radius: 15px; border: 3px solid #22D4FD;">
 </p>
 
 ## 📝 Descrição
