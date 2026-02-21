@@ -45,10 +45,11 @@ span {
 /* Faz o container principal organizar os itens em linha */
 .apresentacao {
     display: flex;
+    flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;
     padding: 5% 10%; /* Dá um espaço nas laterais */
-    gap: 80px; /* Espaço entre o texto e a imagem */
+    gap: 40px; /* Espaço entre o texto e a imagem */
 }
 
 /* Define que o texto ocupa uma parte da tela */
@@ -162,11 +163,11 @@ input, textarea, button {
 }
 
 .imagem {
-    width: 300px; /* Tamanho ajustado para não esconder o sistema */
+    width: 350px; /* Tamanho ajustado para não esconder o sistema */
     height: auto;
     border-radius: 40px; /* O segredo das pontas bem redondas */
     border: 4px solid #22D4FD; 
-    box-shadow: 0 0 20px rgba(34, 212, 253, 0.4); /* Um brilho extra para destacar */
+    box-shadow: 0 0 15px rgba(34, 212, 253, 0.4); /* Um brilho extra para destacar */
 }
 
 .rodape {
@@ -256,6 +257,7 @@ input, textarea, button {
     }
 
 }
+
 
 
 
