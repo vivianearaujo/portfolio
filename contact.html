@@ -8,45 +8,50 @@
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-        <header class="cabecalho">
-            <nav class="cabecalho__menu">
-                <a class="cabecalho__menu__link" href="index.html">Home</a>
-                <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
-                <a class="cabecalho__menu__link" href="curriculo.html">Curriculo</a>
-                <a class="cabecalho__menu__link" href="contact.html">Contato</a>
-            </nav>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+            <a class="cabecalho__menu__link" href="curriculo.html">Curriculo</a>
+            <a class="cabecalho__menu__link" href="contact.html">Contato</a>
+        </nav>
     </header>
-        <main class="apresentacao">
-            <form action="formulario">
+
+    <main class="apresentacao">
+        <img class="imagem" src="./assets/vivi.png" alt="Foto da Viviane Santos">
+
+        <section class="apresentacao__conteudo">
+            <form action="#" class="formulario_contato">
                 <h1 class="titulo_contato">Contate-me</h1>
-                    <div class="campo">
-                        <label for="Nome"><strong>Nome:</strong></label>
-                        <input type="text" name="nome" id="nome"  required placeholder="Nome">
-                    </div>
-
-                    <div class="campo">
-                        <label for="telefone"><strong>Telefone:</strong></label>
-                        <input type="text" name="telefone" id="telefone" required placeholder="(XX) XXXXX-XXXX">
-                    </div>
-
-                    <div class="campo">
-                        <label for="email"><strong>Email:</strong></label>
-                        <input type="email" name="email" id="email" required placeholder="seuemail@dominio.com">
-                    </div>   
-                    
-                    <div class="campo">
-                        <label for="mensagem"><strong>Me envie uma mensagem:</strong></label>
-                        <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Digite aqui..." ></textarea>
-                    </div>
-
-                    <button type="submit" class="enviar"><strong>Enviar</strong></button>
                 
+                <div class="campo">
+                    <label for="nome"><strong>Nome:</strong></label>
+                    <input type="text" name="nome" id="nome" required placeholder="Nome">
+                </div>
+
+                <div class="campo">
+                    <label for="telefone"><strong>Telefone:</strong></label>
+                    <input type="text" name="telefone" id="telefone" required placeholder="(XX) XXXXX-XXXX">
+                </div>
+
+                <div class="campo">
+                    <label for="email"><strong>Email:</strong></label>
+                    <input type="email" name="email" id="email" required placeholder="seuemail@dominio.com">
+                </div>   
+                
+                <div class="campo">
+                    <label for="mensagem"><strong>Me envie uma mensagem:</strong></label>
+                    <textarea name="mensagem" id="mensagem" cols="30" rows="5" placeholder="Digite aqui..."></textarea>
+                </div>
+
+                <button type="submit" class="enviar"><strong>Enviar</strong></button>
             </form>
-            <img src="./assets/vivi.png" width="250" alt="Foto da Viviane Santos">
-        </main>
+        </section>
+    </main>
+
     <footer class="rodape">
-        <p><strong>Desenvolvido por Viviane</strong></p>
+        <p><strong>Desenvolvido por Viviane Santos</strong></p>
     </footer>
 </body>
-
 </html>
+
