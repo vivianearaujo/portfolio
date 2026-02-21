@@ -216,7 +216,7 @@ input, textarea, button {
     }
 
     .imagem {
-        width: 250px; /* Tamanho fixo para não estourar */
+        width: 200px; /* Tamanho fixo para não estourar */
         margin: 0 auto;
     }
 
@@ -248,6 +248,7 @@ input, textarea, button {
         box-sizing: border-box;
     }
 }
+
 
 
 
