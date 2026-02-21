@@ -181,81 +181,74 @@ input, textarea, button {
     width: auto;
 }
 
+/* --- CONFIGURAÇÕES PARA CELULAR (Telas até 1200px) --- */
 @media (max-width: 1200px) {
-    .apresentacao {
-        flex-direction: column-reverse; /* Empilha: Foto em cima, Texto embaixo */
-        padding: 10%;
-        gap: 20px;
-    }
-
-      .apresentacao__conteudo {
-        width: auto;
-    }
-    
     .cabecalho {
-        padding: 10%;
-        margin: 5px;
+        padding: 5% 0;
     }
 
     .cabecalho__menu {
-        justify-content: center; /* Centraliza o menu no celular */
-        gap: 15px;
+        justify-content: center; /* Centraliza o menu */
+        gap: 15px; /* Diminui o espaço entre os links */
     }
-}
 
     .apresentacao {
-        flex-direction: row-reverse;
+        flex-direction: column-reverse; /* Foto em cima, texto embaixo */
         align-items: center;
-        justify-content: space-between;
-        padding: 5% 10%;
-        gap: 80px;
+        justify-content: center;
+        padding: 5%;
+        gap: 30px;
     }
-    
+
+    .apresentacao__conteudo {
+        width: 100%; /* Ocupa a largura total */
+        text-align: center; /* Centraliza o texto */
+    }
+
     .apresentacao__conteudo__titulo {
-       margin: 5px;
+        font-size: 1.5rem; /* Diminui o título no celular */
+        margin: 10px 0;
     }
 
     .apresentacao__conteudo__texto {
-       margin: 18px;
+        font-size: 1.2rem;
+        margin: 10px 0;
     }
 
+    .imagem {
+        width: 250px; /* Tamanho fixo para não estourar */
+        margin: 0 auto;
+    }
+
+    /* Ajustes específicos do Formulário no Celular */
     .titulo_contato {
-        width: 90%;
-        margin-top: 5px;
-        margin-left: 30px;
-    }
-
-  .imagem {
-        width: 250px; /* Diminui a foto para caber no celular */
-        margin: 0 auto; /* Centraliza a foto */
-    }
-    
-
-    .input, textarea, button {
-        width: 95%;
-        padding: 20px;
-        margin-right: 50%;
-        height: 20%;
+        width: 100%;
+        margin: 20px 0;
+        text-align: center;
+        height: auto;
     }
 
     .campo {
-        width: 80%;
-        margin: 5%;
-        padding: 5px;
-    }   
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    input, textarea {
+        width: 100%;
+    }
 
     .enviar {
-        margin: 25px;
-        width: 77%;
-        padding: 15px 15px;
-    }
-   
-    .rodape {
-        width: auto;
-        padding: 20px;
+        width: 90%;
+        margin: 20px auto;
+        display: block; /* Garante que o botão respeite o margin auto */
     }
 
+    .rodape {
+        width: 100%;
+        box-sizing: border-box;
+    }
 }
+
 
 
 
