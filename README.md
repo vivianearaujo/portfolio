@@ -22,7 +22,7 @@ Para garantir a **responsividade** em desktops, tablets e dispositivos móveis, 
 * **Flexbox** (Responsividade)
 
 ## 🔗 Links Oficiais
-* **🌐 Site Online (Vercel):** [Acesse meu projeto aqui](https://portfolio-74hdswoky-vivianearaujo.vercel.app/)
+* **🌐 Site Online (Vercel):** [Acesse meu projeto aqui](https://vivianearaujo-portfolio.vercel.app)
 * **🟦 LinkedIn Profissional:** [Conecte-se comigo no LinkedIn](https://www.linkedin.com/in/viviane-santos-b63986106/)
 
 ---
